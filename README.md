@@ -12,15 +12,16 @@ So I'm not checking to see if the .zip file exists, PLEASE HAVE A CLEAN DIRECTOR
 All files and folders must be in the original format as they are downloaded from the source.
 
 Main Folders/Files in use: 
-###	Link for file: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-###	name of zipfile: getdata_projectfiles_UCI HAR Dataset
-###	Folder it creates: UCI HAR Dataset
-###		sub folder: test / train
-###		sub files: X test/train ; y test/train
-###			   subject_test ; subject_train
+	Link for file: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+	name of zipfile: getdata_projectfiles_UCI HAR Dataset
+	Folder it creates: UCI HAR Dataset
+		sub folder: test / train
+		sub files: X test/train ; y test/train
+			   subject_test ; subject_train
 
 
 The Codebook.md describes all variables, the data and any changes/functions/updates done to the original data
+
 run_analysis.R contains the scripts (It is set to my specific directory, because of problems from ^^) that runs the actions per the rules from the project outlines:
 	1.Merges the training and the test sets to create one data set.
 	2.Extracts only the measurements on the mean and standard deviation for each measurement. 
