@@ -4,6 +4,7 @@ This codebook summarized all the data and variables used in my scripts, sources,
 
 ##*FINAL DATA INDENTIFIERS*
 Subjectid = The id of the subject tested
+
 Activity = The activity of the subject while wearing the device
 
 ##*CODE VARIABLES*
